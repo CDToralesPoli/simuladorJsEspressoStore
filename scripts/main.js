@@ -20,6 +20,7 @@ const agregarAlCarrito = (producto, precio, unidades) => {
     Carrito.push({producto: producto, cantidad: unidades, precioTotal: precio*unidades})
     alert(`Se agregó el siguiente producto a tu carrito:\n\n -  -  -  - \n${unidades} - ${producto}\n -  -  -  -`)
     continuarComprando()
+    console.log(Carrito)
 }
 //funcion para mostrar el carrito
 function mostrarCarrito(Carrito) {
